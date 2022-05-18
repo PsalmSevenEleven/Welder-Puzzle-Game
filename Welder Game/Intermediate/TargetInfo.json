@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PortArtTest",
+			"Path": "D:\\Users\\Caleb\\Documents\\Unreal Projects\\PortArtTest\\Source\\PortArtTest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PortArtTestEditor",
+			"Path": "D:\\Users\\Caleb\\Documents\\Unreal Projects\\PortArtTest\\Source\\PortArtTestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

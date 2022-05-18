@@ -1,0 +1,15 @@
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4\Shipping\PortArtTest\Definitions.PortArtTest.h
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Source\PortArtTest\Public\Welder.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\RootMotionSource.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\Character.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\SpringArmComponent.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\CameraComponent.generated.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/PhysicsHandleComponent.h
+D:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4\Inc\Engine\PhysicsHandleComponent.generated.h
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Source\PortArtTest\Public\WeldableObject.h
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4\Inc\PortArtTest\WeldableObject.generated.h
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4\Inc\PortArtTest\Welder.generated.h

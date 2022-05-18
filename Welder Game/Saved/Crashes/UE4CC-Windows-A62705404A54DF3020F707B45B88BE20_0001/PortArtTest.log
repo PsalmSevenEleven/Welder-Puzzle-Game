@@ -1,0 +1,1704 @@
+﻿Log file open, 02/23/22 23:23:57
+LogInit: Display: Running engine for game: PortArtTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.167334
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2004) (), CPU: Intel(R) Core(TM) i3-9100F CPU @ 3.60GHz, GPU: Radeon RX 570 Series
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.02.24-04.23.58:519][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:519][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.02.24-04.23.58:524][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:524][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.02.24-04.23.58:525][  0]LogInit: Selected Device Profile: [Windows]
+[2022.02.24-04.23.58:525][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.02.24-04.23.58:525][  0]LogHAL: Display: Platform has ~ 16 GB [17097224192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.02.24-04.23.58:525][  0]LogInit: Going up to parent DeviceProfile []
+[2022.02.24-04.23.58:525][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.02.24-04.23.58:525][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Scalability.ini]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.02.24-04.23.58:526][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.02.24-04.23.58:527][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.02.24-04.23.58:527][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.02.24-04.23.58:527][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.02.24-04.23.58:527][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Config/Windows/Engine.ini]
+[2022.02.24-04.23.58:527][  0]LogInit: Computer: DESKTOP-4UF2QLF
+[2022.02.24-04.23.58:527][  0]LogInit: User: Caleb
+[2022.02.24-04.23.58:527][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.02.24-04.23.58:527][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.02.24-04.23.58:527][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.02.24-04.23.58:527][  0]LogMemory: Platform Memory Stats for Windows
+[2022.02.24-04.23.58:527][  0]LogMemory: Process Physical Memory: 118.68 MB used, 118.69 MB peak
+[2022.02.24-04.23.58:527][  0]LogMemory: Process Virtual Memory: 101.61 MB used, 101.61 MB peak
+[2022.02.24-04.23.58:527][  0]LogMemory: Physical Memory: 5653.45 MB used,  10651.73 MB free, 16305.18 MB total
+[2022.02.24-04.23.58:527][  0]LogMemory: Virtual Memory: 5172.79 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2022.02.24-04.23.58:532][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.02.24-04.23.58:552][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.02.24-04.23.58:553][  0]LogInit: Using OS detected language (en-US).
+[2022.02.24-04.23.58:553][  0]LogInit: Using OS detected locale (en-US).
+[2022.02.24-04.23.58:554][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.02.24-04.23.58:736][  0]LogInit: Setting process to per monitor DPI aware
+[2022.02.24-04.23.58:770][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.02.24-04.23.58:770][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.02.24-04.23.58:908][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.02.24-04.23.58:908][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.02.24-04.23.58:908][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.02.24-04.23.58:908][  0]LogD3D11RHI: D3D11 adapters:
+[2022.02.24-04.23.58:978][  0]LogD3D11RHI:    0. 'Radeon RX 570 Series' (Feature Level 11_0)
+[2022.02.24-04.23.58:978][  0]LogD3D11RHI:       8171/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2022.02.24-04.23.58:979][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.02.24-04.23.58:979][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.02.24-04.23.58:980][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.02.24-04.23.58:985][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.02.24-04.23.58:985][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2022.02.24-04.23.58:985][  0]LogWindows: EnumDisplayDevices:
+[2022.02.24-04.23.58:986][  0]LogWindows:    0. 'Radeon RX 570 Series' (P:1 D:1)
+[2022.02.24-04.23.58:986][  0]LogWindows:    1. 'Radeon RX 570 Series' (P:0 D:1)
+[2022.02.24-04.23.58:987][  0]LogWindows:    2. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.02.24-04.23.58:987][  0]LogWindows:    3. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.02.24-04.23.58:988][  0]LogWindows:    4. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.02.24-04.23.58:988][  0]LogWindows:    5. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.02.24-04.23.58:988][  0]LogWindows:    6. 'Radeon RX 570 Series' (P:0 D:0)
+[2022.02.24-04.23.58:989][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2022.02.24-04.23.58:989][  0]LogD3D11RHI:     Adapter Name: Radeon RX 570 Series
+[2022.02.24-04.23.58:989][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 22.1.2 (internal:30.0.14023.3004, unified:30.0.14023.3004)
+[2022.02.24-04.23.58:989][  0]LogD3D11RHI:      Driver Date: 1-18-2022
+[2022.02.24-04.23.58:989][  0]LogRHI: Texture pool is 5182 MB (70% of 7403 MB)
+[2022.02.24-04.23.59:098][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.02.24-04.23.59:098][  0]LogD3D11RHI: Async texture creation enabled
+[2022.02.24-04.23.59:098][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.02.24-04.23.59:108][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2022.02.24-04.23.59:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.02.24-04.23.59:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.02.24-04.23.59:433][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.02.24-04.23.59:433][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.02.24-04.23.59:442][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.02.24-04.23.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.02.24-04.23.59:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.02.24-04.23.59:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.02.24-04.23.59:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.02.24-04.23.59:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.02.24-04.23.59:494][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.02.24-04.23.59:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.02.24-04.23.59:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.02.24-04.23.59:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.02.24-04.23.59:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.02.24-04.23.59:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.02.24-04.23.59:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.02.24-04.23.59:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.02.24-04.23.59:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.02.24-04.23.59:566][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.02.24-04.23.59:572][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.02.24-04.23.59:620][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Caleb/Documents/Unreal Projects/PortArtTest/Intermediate/Shaders/WorkingDirectory/15668/).
+[2022.02.24-04.23.59:620][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Caleb/AppData/Local/Temp/UnrealShaderWorkingDir/C2E008E243B675F2F56F97B069974686/'.
+[2022.02.24-04.23.59:620][  0]LogXGEController: Cleaning working directory: C:/Users/Caleb/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2022.02.24-04.23.59:620][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.02.24-04.23.59:620][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.02.24-04.23.59:620][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.02.24-04.24.00:330][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.02.24-04.24.00:390][  0]LogDerivedDataCache: Loaded boot cache 0.06s 79MB C:/Users/Caleb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.02.24-04.24.00:390][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Caleb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.02.24-04.24.00:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Caleb/Documents/Unreal Projects/PortArtTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.02.24-04.24.00:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.02.24-04.24.00:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Caleb/Documents/Unreal Projects/PortArtTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.02.24-04.24.00:390][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.02.24-04.24.00:401][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.02.24-04.24.00:401][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.02.24-04.24.00:401][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.02.24-04.24.00:402][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Caleb/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.02.24-04.24.00:402][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.02.24-04.24.00:402][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.02.24-04.24.00:451][  0]LogSlate: Using FreeType 2.10.0
+[2022.02.24-04.24.00:451][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.02.24-04.24.00:473][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2022.02.24-04.24.00:678][  0]LogInit: Selected Device Profile: [Windows]
+[2022.02.24-04.24.00:774][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.02.24-04.24.00:774][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.02.24-04.24.00:774][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.02.24-04.24.00:774][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.02.24-04.24.00:774][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.02.24-04.24.00:789][  0]LogNetVersion: PortArtTest 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2298253978)
+[2022.02.24-04.24.01:211][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001EBFFC45BC0), frame # 0
+[2022.02.24-04.24.01:211][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB80BD1E40), frame # 0
+[2022.02.24-04.24.01:212][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EBFFBF1E00), frame # 0
+[2022.02.24-04.24.01:252][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.035072 seconds
+[2022.02.24-04.24.01:258][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2022.02.24-04.24.01:258][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2022.02.24-04.24.01:258][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.02.24-04.24.01:536][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.02.24-04.24.01:540][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.02.24-04.24.01:603][  0]SourceControl: Source control is disabled
+[2022.02.24-04.24.01:603][  0]SourceControl: Source control is disabled
+[2022.02.24-04.24.01:606][  0]SourceControl: Source control is disabled
+[2022.02.24-04.24.01:607][  0]SourceControl: Source control is disabled
+[2022.02.24-04.24.01:612][  0]SourceControl: Source control is disabled
+[2022.02.24-04.24.01:795][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.02.24-04.24.01:810][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.24-04.24.01:810][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.24-04.24.01:849][  0]LogOcInput: OculusInput pre-init called
+[2022.02.24-04.24.02:073][  0]LogEngine: Initializing Engine...
+[2022.02.24-04.24.02:075][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.02.24-04.24.02:075][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.02.24-04.24.02:075][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.02.24-04.24.02:190][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.02.24-04.24.02:199][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.02.24-04.24.02:200][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB848CBC00), frame # 0
+[2022.02.24-04.24.02:200][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB84906FC0), frame # 0
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.24-04.24.02:215][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.24-04.24.02:215][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.24-04.24.02:216][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.24-04.24.02:216][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.24-04.24.02:231][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.24-04.24.02:231][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.02.24-04.24.02:267][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.02.24-04.24.02:267][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.24-04.24.02:270][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.24-04.24.02:270][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.24-04.24.02:273][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.24-04.24.02:274][  0]LogInit: FAudioDevice initialized.
+[2022.02.24-04.24.02:275][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.02.24-04.24.04:192][  0]LogDerivedDataCache: Saved boot cache 1.92s 79MB C:/Users/Caleb/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.02.24-04.24.04:196][  0]LogInit: Texture streaming: Enabled
+[2022.02.24-04.24.04:379][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.02.24-04.24.06:097][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={A13E7498-4743-A3A0-0A26-DA991260AB2C}
+[2022.02.24-04.24.06:097][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={86187473-4818-C5F9-EDDD-77A9CF1E93FE}
+[2022.02.24-04.24.06:097][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.02.24-04.24.06:099][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.02.24-04.24.06:132][  0]LogInit: Transaction tracking system initialized
+[2022.02.24-04.24.06:148][  0]BlueprintLog: New page: Editor Load
+[2022.02.24-04.24.06:199][  0]LocalizationService: Localization service is disabled
+[2022.02.24-04.24.06:313][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2022.02.24-04.24.06:313][  0]LogCook: Display: Mobile HDR setting 1
+[2022.02.24-04.24.08:313][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Content/' took 0.00s
+[2022.02.24-04.24.08:538][  0]SourceControl: Source control is disabled
+[2022.02.24-04.24.08:673][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.02.24-04.24.11:520][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2022.02.24-04.24.11:520][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.02.24-04.24.11:574][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.02.24-04.24.12:556][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2022.02.24-04.24.12:556][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.02.24-04.24.12:567][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+/Game/BP_Weldable_Box
+[2022.02.24-04.24.12:586][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.02.24-04.24.12:587][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.639
+[2022.02.24-04.24.12:587][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Caleb/Documents/Unreal Projects/PortArtTest/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.02.24-04.24.12:607][  0]LightingResults: New page: Lighting Build
+[2022.02.24-04.24.12:608][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.02.24-04.24.12:608][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.02.24-04.24.12:608][  0]MapCheck: New page: Map Check
+[2022.02.24-04.24.12:608][  0]LightingResults: New page: Lighting Build
+[2022.02.24-04.24.12:615][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EB848CBC00), frame # 0
+[2022.02.24-04.24.12:615][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EB84906FC0), frame # 0
+[2022.02.24-04.24.12:616][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.02.24-04.24.12:784][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.02.24-04.24.12:784][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EB93BAFE00), frame # 0
+[2022.02.24-04.24.12:784][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB93C09940), frame # 0
+[2022.02.24-04.24.12:812][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.02.24-04.24.12:828][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2022.02.24-04.24.12:828][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.02.24-04.24.12:829][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.119ms to complete.
+[2022.02.24-04.24.12:829][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.241
+[2022.02.24-04.24.12:831][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.882
+[2022.02.24-04.24.12:908][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.24-04.24.12:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.24-04.24.12:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.24-04.24.12:929][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.02.24-04.24.12:933][  0]LogCollectionManager: Loaded 0 collections in 0.000643 seconds
+[2022.02.24-04.24.12:946][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Saved/Collections/' took 0.00s
+[2022.02.24-04.24.12:946][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Content/Developers/Caleb/Collections/' took 0.00s
+[2022.02.24-04.24.12:946][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Caleb/Documents/Unreal Projects/PortArtTest/Content/Collections/' took 0.00s
+[2022.02.24-04.24.12:946][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3429 classes and 824 folders.
+[2022.02.24-04.24.12:949][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.02.24-04.24.12:992][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.02.24-04.24.12:994][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2022.02.24-04.24.13:001][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2022.02.24-04.24.13:479][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.02.24-04.24.13:483][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.02.24-04.24.13:517][  0]LogRenderer: Reallocating scene render targets to support 928x372 Format 10 NumSamples 1 (Frame:1).
+[2022.02.24-04.24.13:572][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.02.24-04.24.13:618][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2022.02.24-04.24.13:619][  0]LogLoad: (Engine Initialization) Total time: 16.67 seconds
+[2022.02.24-04.24.13:619][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.02.24-04.24.13:652][  0]PIE: Warning: Constraint in '/Engine/Transient.World_1:PersistentLevel.Button_Up_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2022.02.24-04.24.13:687][  0]LogAssetRegistry: Asset discovery search completed in 13.2144 seconds
+[2022.02.24-04.24.13:691][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.02.24-04.24.13:696][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.02.24-04.24.14:669][ 61]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.02.24-04.24.16:300][174]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Button.Button
+[2022.02.24-04.24.16:504][174]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 125 classes and 0 folders.
+[2022.02.24-04.24.17:282][174]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Button_Up.Button_Up
+[2022.02.24-04.24.17:583][174]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Weldable_Box.BP_Weldable_Box
+[2022.02.24-04.24.17:905][174]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Weldable_Wall.BP_Weldable_Wall
+[2022.02.24-04.24.18:205][174]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Welder.BP_Welder
+[2022.02.24-04.24.18:502][174]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.02.24-04.24.18:556][175]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.02.24-04.25.21:450][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2022.02.24-04.25.38:419][199]BlueprintLog: New page: Compile BP_Weldable_Box
+[2022.02.24-04.25.38:482][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.02.24-04.25.39:143][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.02.24-04.25.40:163][330]LogTemp: Repeating last play command: Selected Viewport
+[2022.02.24-04.25.40:173][330]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.02.24-04.25.40:173][330]PIE: New page: PIE session: ThirdPersonExampleMap (Feb 23, 2022, 6:25:40 PM)
+[2022.02.24-04.25.40:196][330]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.02.24-04.25.40:196][330]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.02.24-04.25.40:196][330]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2022.02.24-04.25.40:212][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015664s)
+[2022.02.24-04.25.40:214][330]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2022.02.24-04.25.40:214][330]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EC37467E00), frame # 2330
+[2022.02.24-04.25.40:214][330]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EB9422BC40), frame # 2330
+[2022.02.24-04.25.40:214][330]LogPlayLevel: PIE: World Init took: (0.002042s)
+[2022.02.24-04.25.40:214][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.017950s)
+[2022.02.24-04.25.40:241][330]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.02.24-04.25.40:242][330]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.02.24-04.25.40:242][330]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.02.24-04.25.40:243][330]LogAudio: Display: Using built-in audio occlusion.
+[2022.02.24-04.25.40:243][330]LogAudioMixer: Display: Initializing audio mixer.
+[2022.02.24-04.25.40:247][330]LogAudioMixer: Display: 0: FrontLeft
+[2022.02.24-04.25.40:247][330]LogAudioMixer: Display: 1: FrontRight
+[2022.02.24-04.25.40:266][330]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.02.24-04.25.40:266][330]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.02.24-04.25.40:266][330]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.02.24-04.25.40:266][330]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.02.24-04.25.40:267][330]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.02.24-04.25.40:278][330]LogInit: FAudioDevice initialized.
+[2022.02.24-04.25.40:285][330]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.02.24-04.25.40:287][330]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2022.02.23-23.25.40
+[2022.02.24-04.25.40:287][330]LogWorld: Bringing up level for play took: 0.001105
+[2022.02.24-04.25.40:287][330]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.02.24-04.25.40:290][330]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.02.24-04.25.40:291][330]PIE: Server logged in
+[2022.02.24-04.25.40:292][330]PIE: Play in editor total start time 0.12 seconds.
+[2022.02.24-04.25.40:294][330]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:294][330]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:294][330]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:628][331]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:628][331]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:628][331]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:642][332]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:642][332]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:642][332]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:655][333]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:655][333]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:655][333]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:666][334]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:666][334]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:666][334]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:677][335]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:677][335]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:677][335]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:689][336]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:689][336]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:689][336]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:700][337]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:700][337]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:700][337]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:711][338]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:711][338]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:711][338]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:723][339]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:723][339]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:723][339]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:735][340]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:735][340]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:735][340]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:747][341]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:747][341]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:747][341]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:758][342]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:758][342]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:758][342]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:772][343]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:772][343]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:772][343]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:784][344]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:784][344]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:784][344]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:798][345]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:798][345]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:798][345]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:811][346]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:811][346]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:811][346]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:823][347]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:823][347]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:823][347]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:835][348]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:835][348]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:835][348]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:846][349]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:846][349]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:846][349]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:857][350]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:857][350]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:857][350]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:870][351]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:870][351]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:870][351]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:881][352]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:881][352]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:882][352]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:893][353]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:893][353]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:893][353]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:907][354]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:907][354]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:907][354]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:919][355]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:919][355]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:920][355]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:933][356]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:933][356]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:933][356]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:946][357]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:946][357]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:946][357]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:958][358]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:958][358]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:958][358]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:970][359]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:970][359]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:970][359]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:982][360]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:982][360]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:983][360]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.40:994][361]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.40:995][361]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.40:995][361]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:006][362]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:006][362]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:006][362]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:017][363]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:017][363]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:017][363]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:028][364]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:028][364]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:028][364]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:039][365]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:039][365]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:039][365]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:051][366]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:051][366]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:051][366]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:063][367]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:064][367]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:064][367]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:075][368]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:075][368]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:075][368]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:086][369]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:086][369]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:086][369]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:097][370]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:097][370]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:097][370]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:108][371]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:108][371]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:108][371]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:120][372]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:120][372]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:120][372]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:132][373]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:132][373]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:132][373]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:143][374]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:143][374]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:143][374]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:154][375]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:154][375]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:154][375]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:166][376]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:166][376]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:166][376]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:177][377]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:177][377]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:177][377]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:189][378]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:189][378]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:189][378]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:202][379]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:202][379]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:202][379]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:213][380]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:213][380]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:213][380]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:224][381]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:224][381]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:224][381]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:237][382]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:237][382]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:237][382]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:249][383]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:249][383]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:249][383]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:262][384]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:262][384]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:262][384]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:272][385]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:272][385]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:272][385]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:284][386]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:284][386]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:284][386]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:295][387]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:295][387]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:295][387]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:306][388]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:306][388]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:306][388]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:319][389]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:319][389]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:319][389]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:331][390]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:331][390]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:331][390]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:342][391]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:343][391]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:343][391]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:355][392]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:355][392]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:355][392]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:366][393]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:366][393]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:366][393]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:377][394]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:377][394]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:377][394]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:388][395]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:389][395]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:389][395]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:399][396]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:399][396]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:399][396]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:411][397]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:411][397]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:411][397]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:423][398]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:423][398]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:423][398]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:435][399]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:435][399]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:435][399]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:448][400]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:448][400]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:448][400]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:460][401]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:460][401]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:460][401]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:474][402]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:474][402]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:474][402]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:487][403]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:487][403]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:487][403]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:500][404]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:500][404]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:500][404]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:515][405]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:515][405]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:515][405]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:529][406]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:529][406]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:529][406]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:541][407]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:541][407]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:541][407]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:553][408]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:553][408]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:553][408]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:565][409]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:565][409]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:565][409]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:577][410]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:577][410]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:577][410]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:590][411]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:590][411]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:590][411]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:602][412]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:602][412]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:602][412]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:615][413]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:615][413]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:615][413]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:627][414]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:627][414]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:627][414]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:640][415]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:640][415]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:640][415]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:651][416]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:651][416]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:651][416]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:663][417]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:664][417]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:664][417]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:674][418]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:675][418]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:675][418]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:685][419]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:685][419]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:685][419]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:698][420]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:698][420]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:698][420]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:709][421]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:709][421]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:709][421]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:721][422]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:721][422]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:721][422]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:732][423]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:732][423]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:732][423]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:744][424]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:744][424]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:744][424]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:757][425]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:757][425]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:757][425]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:768][426]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:768][426]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:768][426]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:780][427]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:780][427]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:780][427]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:793][428]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:793][428]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:793][428]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:804][429]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:804][429]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:804][429]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:817][430]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:817][430]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:817][430]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:829][431]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:830][431]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:830][431]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:842][432]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:842][432]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:842][432]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:854][433]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:854][433]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:854][433]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:866][434]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:866][434]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:866][434]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:878][435]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:878][435]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:878][435]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:890][436]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:890][436]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:890][436]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:902][437]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:902][437]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:902][437]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:914][438]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:914][438]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:914][438]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:925][439]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:925][439]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:925][439]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:936][440]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:936][440]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:936][440]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:948][441]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:948][441]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:948][441]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:960][442]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:960][442]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:960][442]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:971][443]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:971][443]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:972][443]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:985][444]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:985][444]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:985][444]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.41:996][445]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.41:996][445]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.41:996][445]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:007][446]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:007][446]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:007][446]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:019][447]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:019][447]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:019][447]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:031][448]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:031][448]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:031][448]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:044][449]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:044][449]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:044][449]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:055][450]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:055][450]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:055][450]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:068][451]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:068][451]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:068][451]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:079][452]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:079][452]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:079][452]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:091][453]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:092][453]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:092][453]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:103][454]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:103][454]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:103][454]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:114][455]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:114][455]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:114][455]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:126][456]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:126][456]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:126][456]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:137][457]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:137][457]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:137][457]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:150][458]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:150][458]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:150][458]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:162][459]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:162][459]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:162][459]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:175][460]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:175][460]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:176][460]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:187][461]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:187][461]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:187][461]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:200][462]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:200][462]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:200][462]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:212][463]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:212][463]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:212][463]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:223][464]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:224][464]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:224][464]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:235][465]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:235][465]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:235][465]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:247][466]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:247][466]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:247][466]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:259][467]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:259][467]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:259][467]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:271][468]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:271][468]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:271][468]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:281][469]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:281][469]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:281][469]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:293][470]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:293][470]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:294][470]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:306][471]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:307][471]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:307][471]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:318][472]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:318][472]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:318][472]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:329][473]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:329][473]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:329][473]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:341][474]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:341][474]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:341][474]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:353][475]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:353][475]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:353][475]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:363][476]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:363][476]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:363][476]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:375][477]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:376][477]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:376][477]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:387][478]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:387][478]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:387][478]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:398][479]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:398][479]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:398][479]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:409][480]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:409][480]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:409][480]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:420][481]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:420][481]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:420][481]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:431][482]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:431][482]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:431][482]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:442][483]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:442][483]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:442][483]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:453][484]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:453][484]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:453][484]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:465][485]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:465][485]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:465][485]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:476][486]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:476][486]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:476][486]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:488][487]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:488][487]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:488][487]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:499][488]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:499][488]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:499][488]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:511][489]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:511][489]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:511][489]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:521][490]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:521][490]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:521][490]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:532][491]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:532][491]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:532][491]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:544][492]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:544][492]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:544][492]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:555][493]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:555][493]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:555][493]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:567][494]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:567][494]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:567][494]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:580][495]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:580][495]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:580][495]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:593][496]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:593][496]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:593][496]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:606][497]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:606][497]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:606][497]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:618][498]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:618][498]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:618][498]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:630][499]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:630][499]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:630][499]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:643][500]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:643][500]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:643][500]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:655][501]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:656][501]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:656][501]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:668][502]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:668][502]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:668][502]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:681][503]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:681][503]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:681][503]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:693][504]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:693][504]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:693][504]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:706][505]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:707][505]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:707][505]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:719][506]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:719][506]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:719][506]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:731][507]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:731][507]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:731][507]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:745][508]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:745][508]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:745][508]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:756][509]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:756][509]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:756][509]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:768][510]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:768][510]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:768][510]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:780][511]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:780][511]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:780][511]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:792][512]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:792][512]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:792][512]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:805][513]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:805][513]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:805][513]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:816][514]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:817][514]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:817][514]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:829][515]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:830][515]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:830][515]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:840][516]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:840][516]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:840][516]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:853][517]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:853][517]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:853][517]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:865][518]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:865][518]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:865][518]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:878][519]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:878][519]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:878][519]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:889][520]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:890][520]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:890][520]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:903][521]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:903][521]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:903][521]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:915][522]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:915][522]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:915][522]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:926][523]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:927][523]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:927][523]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:938][524]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:938][524]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:938][524]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:951][525]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:951][525]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:951][525]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:962][526]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:962][526]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:962][526]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:975][527]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:975][527]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:975][527]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:987][528]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:987][528]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:987][528]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.42:999][529]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.42:999][529]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.42:999][529]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:011][530]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:011][530]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:011][530]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:023][531]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:023][531]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:023][531]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:036][532]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:036][532]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:036][532]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:048][533]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:048][533]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:048][533]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:061][534]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:061][534]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:061][534]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:073][535]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:073][535]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:073][535]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:087][536]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:087][536]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:087][536]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:099][537]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:099][537]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:099][537]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:112][538]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:112][538]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:113][538]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:124][539]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:124][539]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:124][539]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:138][540]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:138][540]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:138][540]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:150][541]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:150][541]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:150][541]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:163][542]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:163][542]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:163][542]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:177][543]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:177][543]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:177][543]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:190][544]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:190][544]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:190][544]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:203][545]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:203][545]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:203][545]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:217][546]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:217][546]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:217][546]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:229][547]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:229][547]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:229][547]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:241][548]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:241][548]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:241][548]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:254][549]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:254][549]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:254][549]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:267][550]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:267][550]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:267][550]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:280][551]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:280][551]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:280][551]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:290][552]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:290][552]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:290][552]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:303][553]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:303][553]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:303][553]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:315][554]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:316][554]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:316][554]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:327][555]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:327][555]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:327][555]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:338][556]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:338][556]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:338][556]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:350][557]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:350][557]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:350][557]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:361][558]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:361][558]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:361][558]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:372][559]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:372][559]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:372][559]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:383][560]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:383][560]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:383][560]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:395][561]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:395][561]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:395][561]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:406][562]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:406][562]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:407][562]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:418][563]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:418][563]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:418][563]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:430][564]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:430][564]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:430][564]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:441][565]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:441][565]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:441][565]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:453][566]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:453][566]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:453][566]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:466][567]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:466][567]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:466][567]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:478][568]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:478][568]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:478][568]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:490][569]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:490][569]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:490][569]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:503][570]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:504][570]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:504][570]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:517][571]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:517][571]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:517][571]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:529][572]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:529][572]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:529][572]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:542][573]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:542][573]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:542][573]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:555][574]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:555][574]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:555][574]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:567][575]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:567][575]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:567][575]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:579][576]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:579][576]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:579][576]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:591][577]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:591][577]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:592][577]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:605][578]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:605][578]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:605][578]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:616][579]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:617][579]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:617][579]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:629][580]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:629][580]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:629][580]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:642][581]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:642][581]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:642][581]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:655][582]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:655][582]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:655][582]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:667][583]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:667][583]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:667][583]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:679][584]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:679][584]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:679][584]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:690][585]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:690][585]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:690][585]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:702][586]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:702][586]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:702][586]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:714][587]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:714][587]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:714][587]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:726][588]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:726][588]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:726][588]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:738][589]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:738][589]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:738][589]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:750][590]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:750][590]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:750][590]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:761][591]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:761][591]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:761][591]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:773][592]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:773][592]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:773][592]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:785][593]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:785][593]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:785][593]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:797][594]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:797][594]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:797][594]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:808][595]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:808][595]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:808][595]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:820][596]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:820][596]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:820][596]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:832][597]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:832][597]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:832][597]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:844][598]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:844][598]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:844][598]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:856][599]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:856][599]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:856][599]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:868][600]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:868][600]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:868][600]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:879][601]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:879][601]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:879][601]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:890][602]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:890][602]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:890][602]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:903][603]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:903][603]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:904][603]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:916][604]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:916][604]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:916][604]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:928][605]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:928][605]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:928][605]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:940][606]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:940][606]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:940][606]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:952][607]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:952][607]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:952][607]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:963][608]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:963][608]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:963][608]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:975][609]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:975][609]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:975][609]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:986][610]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:986][610]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:986][610]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.43:998][611]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.43:998][611]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.43:998][611]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:008][612]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:009][612]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:009][612]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:019][613]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:019][613]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:019][613]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:031][614]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:031][614]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:031][614]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:042][615]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:042][615]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:042][615]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:054][616]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:054][616]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:054][616]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:066][617]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:066][617]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:066][617]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:076][618]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:076][618]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:076][618]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:088][619]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:088][619]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:088][619]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:099][620]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:099][620]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:099][620]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:110][621]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:110][621]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:110][621]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:121][622]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:121][622]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:121][622]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:133][623]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:133][623]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:133][623]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:144][624]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:144][624]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:144][624]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:156][625]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:156][625]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:156][625]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:167][626]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:167][626]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:167][626]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:178][627]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:178][627]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:178][627]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:189][628]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:189][628]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:189][628]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:201][629]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:201][629]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:201][629]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:212][630]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:212][630]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:212][630]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:223][631]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:223][631]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:223][631]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:235][632]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:235][632]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:235][632]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:246][633]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:246][633]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:246][633]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:258][634]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:258][634]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:258][634]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:270][635]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:270][635]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:270][635]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:282][636]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:282][636]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:282][636]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:293][637]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:293][637]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:293][637]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:305][638]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:305][638]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:305][638]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:315][639]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:315][639]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:315][639]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:327][640]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:327][640]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:327][640]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:339][641]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:339][641]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:339][641]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:350][642]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:350][642]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:350][642]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:362][643]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:362][643]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:362][643]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:373][644]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:373][644]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:373][644]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:385][645]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:385][645]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:385][645]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:396][646]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:396][646]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:396][646]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:408][647]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:408][647]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:408][647]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:419][648]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:419][648]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:419][648]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:431][649]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:431][649]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:431][649]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:441][650]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:442][650]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:442][650]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:453][651]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:453][651]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:453][651]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:465][652]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:465][652]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:465][652]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:476][653]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:476][653]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:476][653]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:488][654]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:488][654]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:488][654]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:499][655]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:499][655]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:499][655]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:511][656]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:511][656]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:511][656]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:521][657]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:522][657]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:522][657]LogBlueprintUserMessages: [Box3] 0
+[2022.02.24-04.25.44:533][658]LogBlueprintUserMessages: [box1] 0
+[2022.02.24-04.25.44:534][658]LogBlueprintUserMessages: [Box2] 0
+[2022.02.24-04.25.44:534][658]LogBlueprintUserMessages: [Box3] 0

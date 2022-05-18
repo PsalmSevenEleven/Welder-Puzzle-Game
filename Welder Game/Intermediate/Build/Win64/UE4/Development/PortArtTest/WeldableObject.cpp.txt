@@ -1,0 +1,3 @@
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4\Development\PortArtTest\Definitions.PortArtTest.h
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Source\PortArtTest\Public\WeldableObject.h
+D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4\Inc\PortArtTest\WeldableObject.generated.h

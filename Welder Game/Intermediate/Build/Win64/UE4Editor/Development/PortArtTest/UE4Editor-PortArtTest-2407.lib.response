@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PortArtTest-2407.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\PortArtTestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\WeldableObject.cpp.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\Welder.cpp.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\PortArtTest.cpp.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\PortArtTest.init.gen.cpp.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\WeldableObject.gen.cpp.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\Welder.gen.cpp.obj"
+"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\Default.rc2.res"
+/OUT:"D:\Users\Caleb\Documents\Unreal Projects\PortArtTest\Intermediate\Build\Win64\UE4Editor\Development\PortArtTest\UE4Editor-PortArtTest-2407.lib"
+/INCLUDE:IMPLEMENT_MODULE_PortArtTest

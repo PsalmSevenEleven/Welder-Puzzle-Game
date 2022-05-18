@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Users\\Caleb\\Documents\\Unreal Projects\\PortArtTest\\Source\\PortArtTest\\PortArtTest.Build.cs",
+		"D:\\Users\\Caleb\\Documents\\Unreal Projects\\PortArtTest\\Source\\PortArtTest.Target.cs",
+		"D:\\Users\\Caleb\\Documents\\Unreal Projects\\PortArtTest\\Source\\PortArtTestEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PortArtTest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{52B8308C-44E1-44C0-9288-029F66C69B65}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PortArtTest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PortArtTestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E462155E-761B-4B09-ABE3-3773B5D9D185}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PortArtTest">
+      <UniqueIdentifier>{0A3D3CF7-7855-4F0F-A9F5-D2B7A0C0F435}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PortArtTest\PortArtTest.Build.cs">
+      <Filter>Source\PortArtTest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PortArtTest\PortArtTest.cpp">
+      <Filter>Source\PortArtTest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PortArtTest\PortArtTest.h">
+      <Filter>Source\PortArtTest</Filter>
+    </ClInclude>
+    <Filter Include="Source\PortArtTest\Private">
+      <UniqueIdentifier>{91070F25-956A-48C6-A2ED-6DF48049CE04}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PortArtTest\Private\WeldableObject.cpp">
+      <Filter>Source\PortArtTest\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PortArtTest\Private\Welder.cpp">
+      <Filter>Source\PortArtTest\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PortArtTest\Public">
+      <UniqueIdentifier>{FF635249-BDEB-4FBE-83EB-C47C3B324106}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PortArtTest\Public\WeldableObject.h">
+      <Filter>Source\PortArtTest\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PortArtTest\Public\Welder.h">
+      <Filter>Source\PortArtTest\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
